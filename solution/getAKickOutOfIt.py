@@ -28,7 +28,7 @@ def split_audio_into_16th_notes(audio_file, bpm):
 
   return segments, np.max(np.abs(librosa.stft(y)))
 
-def detect_low_frequency_activity(segment, sample_rate, max_amplitude, threshold_db=-6, freq_range=(0, 60)):
+def detect_low_frequency_activity(segment, sample_rate, max_amplitude, threshold_db=-6, freq_range=(0, 100)):
   """
   Detects if the segment contains any signal above the threshold in the specified frequency range.
 
@@ -51,7 +51,7 @@ def detect_low_frequency_activity(segment, sample_rate, max_amplitude, threshold
   freqs = librosa.fft_frequencies(sr=sample_rate, n_fft=2048)
 
   # Get the frequency indices between 0 and 100 Hz (where the bass pedal is present) 
-  low_freq_idx = (freqs >= 0) & (freqs <= 100) 
+  low_freq_idx = (freqs >= freq_range[0]) & (freqs <= freq_range[1]) 
 
   # Get the DB values within those frequencies
   S_db_low_freq = S_db[low_freq_idx, :] 
