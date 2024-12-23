@@ -1,10 +1,1 @@
-The description of your challenge as seen by participants in CTFd. Try to make it feel within the theme
-of the event...
-
----
-If your challenge is a multi-flag one (i.e., it consists of a sequence of sub-challenges each rewarded with
-its own flag), requiring a different description for each sub-challenge, then have your descriptions split as 
-done with this paragraph, and the next one.
-
----
-Obviously, for each sub-challenge, you should provide its flag value in [solution/FLAGS.md](solution/FLAGS.md).
+Jester has really lost it, and produced an AI-fusion track that has no sense of groove, no pocket, no danceability. Perhaps there is a reason why Jester made it, though... After producing the track, Jester said, "This is my best creation yet! It may sound like robot noise to you, but I get a kick out of it!"
