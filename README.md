@@ -1,6 +1,4 @@
-# Chall - Your Challenge Title
-
-> A brief description of the challenge
+# Chall - Noteable Notes
 
 ## Type
 
@@ -9,31 +7,16 @@
 
 ## Designer(s)
 
-- Ada Lovelace
-- Barbara Liskov
+- Anthony Andreoli
 
 ## Description
 
-A high-level overview intended to clarify the concept and intuition behind the challenge, outlining its educational
-goals and the skills it aims to test in participants.
+Participants must capture the bass pedal notes within the song, and their position in each bar. These 16th note positions yield hex values that, when combined, form the key. Problem is, there are other instruments in the mix, so it's not just about loudness analysis, but over a specific frequency, incorporating the correct window size of 16th notes.
 
 **IMPORTANT:** This description will **NOT** be shared with participants.
 
-## Category(ies)
-
-- `pwn`
-- `re`
-- `web`
+## Category
 - `stegano`
-- `env`
-- `crypto`
-- `osint`
-- `web3`
-- `ai`
-- `android`
-- `auto`
-- `misc`
-
 ---
 
 # Project Structure
