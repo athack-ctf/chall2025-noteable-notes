@@ -2,7 +2,7 @@
 
 Steps to "reproduce'':
 
-- Take key and convert to hex (one character 0x<HEX><HEX>)
+- Take key and convert to hex (one character 0xXX)
 - The number of characters = number of bars in the song
 - A song was created with 25 bars (key is 25 characters long)
 - Each bar of 4/4 is split into 16 16th notes. The first 8 notes represent the first hex value, and the second 8 notes represent the second hex value.
