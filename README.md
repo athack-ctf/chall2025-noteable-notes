@@ -1,5 +1,5 @@
 # Chall - Noteable Notes
-
+> Identify bass pedal 16th-note positions to generate hex values for the key, using frequency-specific analysis.
 ## Type
 
 - [X] **OFF**line
