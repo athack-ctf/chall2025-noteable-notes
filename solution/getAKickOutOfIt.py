@@ -108,7 +108,7 @@ def analyze_audio(audio_file, bpm):
   print("KEY:", "".join(key))  
 
 # Example Usage
-audio_file = 'DRUM_CHALLENGE_REV1.wav' 
+audio_file = '../offline-artifacts/noteable_notes.wav' 
 bpm = 120  # Example BPM
 
 analyze_audio(audio_file, bpm)
