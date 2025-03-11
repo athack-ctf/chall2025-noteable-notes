@@ -1,0 +1,25 @@
+name: "Noteable Notes"
+author: "Anthony"
+category: Stegano
+description: |
+    Jester has really lost it, and produced an AI-fusion track that has no sense of groove, no pocket, no danceability. Perhaps there is a reason why Jester made it, though... After producing the track, Jester said, "This is my best creation yet! It may sound like robot noise to you, but I get a KICK out of it!"
+
+    
+value: 200
+
+type: standard
+
+flags:
+  - type: "static"
+    content: "ATHACKCTF{PrImUs-RuSh-KC}"
+    data: "case_insensitive"
+
+tags:
+    - beginner
+
+files:
+    - offline-artifacts/noteable_notes.wav
+
+state: visible
+
+version: "0.1"
