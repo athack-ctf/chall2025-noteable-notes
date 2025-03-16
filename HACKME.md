@@ -1,1 +1,0 @@
-Jester has really lost it, and produced an AI-fusion track that has no sense of groove, no pocket, no danceability. Perhaps there is a reason why Jester made it, though... After producing the track, Jester said, "This is my best creation yet! It may sound like robot noise to you, but I get a KICK out of it!"

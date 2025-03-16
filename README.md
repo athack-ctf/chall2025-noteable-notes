@@ -1,19 +1,42 @@
-# Chall - Noteable Notes
-> Identify bass pedal 16th-note positions to generate hex values for the key, using frequency-specific analysis.
-## Type
+# @HACK 2025: Noteable Notes
 
-- [X] **OFF**line
-- [ ] **ON**line
+> Authored by [Anthony](https://github.com/aa-software2112).
 
-## Designer(s)
+- **Category**: `Stegano`
+- **Value**: `200 points`
+- **Tags**: `beginner`
 
-- Anthony Andreoli
+> Jester has really lost it, and produced an AI-fusion track that has no sense of groove, no pocket, no danceability. Perhaps there is a reason why Jester made it, though... After producing the track, Jester said, "This is my best creation yet! It may sound like robot noise to you, but I get a KICK out of it!"
+> 
 
-## Description
+## Files
+- **[Download: noteable_notes.wav](https://github.com/athack-ctf/chall2025-noteable-notes/raw/refs/heads/main/offline-artifacts/noteable_notes.wav)**
 
-Participants must capture the bass pedal notes within the song, and their position in each bar. These 16th note positions yield hex values that, when combined, form the key. Problem is, there are other instruments in the mix, so it's not just about loudness analysis, but over a specific frequency, incorporating the correct window size of 16th notes.
+## Reveal Flag
 
-**IMPORTANT:** This description will **NOT** be shared with participants.
+Did you try solving this challenge?
+<details>
+<summary>
+Yes
+</summary>
 
-## Category
-- `stegano`
+Did you **REALLY** try solving this challenge?
+
+<details>
+<summary>
+Yes, I promise!
+</summary>
+
+Flag: `ATHACKCTF{PrImUs-RuSh-KC}`
+
+</details>
+</details>
+
+
+---
+
+## About @HACK
+[@HACK](https://athackctf.com/) is an annual CTF (Capture The Flag) competition hosted by [HEXPLOIT ALLIANCE](https://hexploit-alliance.com/) and [TECHNATION](https://technationcanada.ca/) at Concordia University in Montreal, Canada.
+
+---
+[Check more challenges from @HACK 2025](https://github.com/athack-ctf/AtHackCTF-2025-Challenges).
